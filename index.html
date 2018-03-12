@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="manip.js"></script>
+</head>
+
+<body>
+	<form>
+
+	<nav id="entete">
+		<h1 id="deb">Curriculum Vitae</h1>
+			<div id="menu"/>
+				<li><a class="scroll" href="#accueil">Accueil</a></li>
+				<li><a class="scroll" href="#about">A propos de moi</a></li>
+				<li><a class="scroll" href="#studies">Diplômes et qualifications</a></li>
+				<li><a class="scroll" href="#workexp">Expériences Professionels</a></li>
+				
+			</div>
+	</nav>
+	
+	<h2  id="accueil">Introduction</h2>
+		<div class="conteneur" >
+		
+			<div id="cadre">
+				<img src="img/profil.jpg" alt="Bien ta vue ma tête" id="BelGueule">
+			<p id="nom">AL BAHRAOUI Mimoun</p>
+			</div>
+
+			<p id="contenuHome">
+				Je m'apelle Mimoun Al Bahraoui, j'ai 20 ans, actuellement en 3ème année de licence à l'IAE à Annecy le Vieux. Mes principales qualités sont ma patiente, ma capacité a me concentrer et ma logique.
+				Je me spécialise dans le dévoleppement d'application web et de plugin pour GLPI.
+			
+			</p>
+
+			<ul id="reseaux">
+					<li>
+						<a href="https://www.facebook.com/mimoun.albahraoui">
+							<img src="img/fb_icon.png" alt="Facebook" width="32px" height="32px">
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/Albahraoui1?lang=fr">
+							<img src="img/twitter_icon.png" alt="Twitter" width="32px" height="32px">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/mimoun-al-bahraoui-857ab010a/">
+							<img src="img/linkedin_icon.jpg" alt="Linkedin" width="32px" height="32px">
+						</a>
+					</li>
+			</ul>
+			
+			<p id="contenu_photo_text"> Mon Projet principal : </br> Construction et développement d'un robot avec BrickPI. A partir du block BrickPI, et des outils de construction Lego Mindstorm EV3, nous avons pu construire une voiture autonome qui ne tombe pas dans le vide. La BrickPi tournant sur un OS Linux et le programme du robot étant en python.
+			</p>
+
+			<div id="contenu_photo">
+				
+				<img src="img/capture1.png" alt="Bien ta vue ma tête" class="projet">
+				<img src="img/capture2.png" alt="Bien ta vue ma tête" class="projet">
+				<img src="img/capture3.png" alt="Bien ta vue ma tête" class="projet">
+			</div>
+		</div>
+	
+	<h2 id="about"> Quelques Informations </h2>
+		<div class="conteneur">
+			
+				<div id="deplacementInfo" class="reset">
+					<img src="img/flocon.png" class="GrosIcon" id="flocon" onclick="affiche()">
+					<!--<object data="img/flocon.svg" type="image/svg+xml" class="GrosIcon" id ="flocon">
+						<embed src="../img/flocon.svg" type="image/svg+xml" onclick="affiche()">	
+					</object>
+
+					<p class='show'>Voir</p>-->
+				</div>
+				
+				<div id="afficheInfo">
+					
+					<div class="contenu_general">
+						<p>
+							Je suis une personne qui aime faire du sport et exercer ces compétences en programmation et <br>
+							développement Web.<br>
+							Mes principales qualités sont ma patiente, ma rigueur et ma capacité à travailler en équipe.<br>
+							Mes principaux défauts sont mon manque d'organisation et mon côté maniaque.
+						</p>
+						<object data="img/birth.svg" type="image/svg+xml" class ="home">
+							<embed src="../img/birth.svg" type="image/svg+xml">
+						</object>		
+						<div class="adrebirth">Birth : 18 / 04 / 1997</div>
+						</br>
+						<object data="img/home2.svg" type="image/svg+xml" class ="home">
+							<embed src="../img/home2.svg" type="image/svg+xml">
+						</object>			
+						<div class='adrebirth'>
+							24 Rue de Joigny
+							73490 La Ravoire
+						</div>
+						</br>
+						<object data="img/tel.svg" type="image/svg+xml" class ="home">
+							<embed src="../img/tel.svg" type="image/svg+xml">
+						</object>	
+						<div class="telmail">06 51 72 92 86</div>
+						</br>
+						<object data="img/mail.svg" type="image/svg+xml" class ="home">
+							<embed src="../img/mail.svg" type="image/svg+xml">
+						</object>	
+						<div class="telmail">mimoun.albahraoui@hotmail.com</div>
+					</div>
+				</div>
+		</div>
+	
+	<h2 id="studies"> Diplômes et qualifications </h2>
+		<div class="conteneur"  >
+		
+			<div id="deplacementEducation" class="reset">
+				<img src="img/diploma.png" class="GrosIcon" id="diplome" onclick="affiche()">
+				<!--<object data="img/diploma.svg" type="image/svg+xml" class="GrosIcon" id ="diplome">
+					<embed src="../img/diploma.svg" type="image/svg+xml">
+				</object>	
+
+				<p class='show'>Voir</p>-->
+			</div>
+			
+			<div id="afficheEduc">
+				<div class="contenu_general">
+					<p>
+						2014 - 2015
+					<p>
+						
+					<p>
+						Baccalauréat S SVT / ISN – Lycée du Granier – La Ravoire, France <br>
+						Dîplome avec option Informatique et Sciences du Numérique obtenu avec mention Assez Bien
+					</p>
+					
+					<p>
+						2015 - 2017
+					</p>
+					<p>
+						DUT INFORMATIQUE <br>
+						Université de Savoie – Annecy-Le-Vieux, France
+					</p>
+
+					<p>
+						2017 - 2018
+					</p>
+					<p>
+						Licence Economie/Gestion Option Systèmes D'information <br>
+						IAE Savoie Mont Blanc - Annecy-Le-Vieux, France <br>
+						(En cours d'obtention)
+					</p>
+				</div>
+			</div>
+		</div>
+	
+	<h2  id="workexp"> Expériences Professionels</h2>
+	
+		<div class="conteneur" >	
+			
+			<div id="deplacementExp" class="reset">
+				<img src="img/tools.png" class="GrosIcon" id="tools" onclick="affiche()">
+				<!--<object data="img/tools.svg" type="image/svg+xml" class="GrosIcon" id ="tools">
+						<embed src="../img/tools.svg" type="image/svg+xml">
+				</object>	
+				<p class='show'>Voir</p>-->
+			</div>
+			<div id="afficheExp">
+				<div class="contenu_experiences">
+					<p class="contenu">
+						Juillet 2017
+					</p>
+					
+					<p class="contenu">
+						Work2000 - BP Construction <br>
+						Manoeuvre / Assistant maçon <br>
+						Nettoyage et Ramassage sur le chantier / Assistant d'un maçon qualifié dans ses tâches
+					</p>
+
+					<p class="contenu">
+						Avril 2017 - Juin 2017
+					</p>
+					
+					<p class="contenu">
+						ROUTIN S.A <br>
+						Développeur PHP Stagiaire <br>
+						Développement d'une application pour GLPI de Gestions des bandes de sauvegardes. L'application sevira à gérer la localisation des bandes, <br> leurs archivages, le domaine d'utilisation.
+					</p>
+
+					<p class="contenu">
+						Septembre 2016 - Mars 2017
+					</p>
+
+					<p class="contenu">
+						IUT - Savoie Mont Blanc <br>
+						Développeur PHP Web <br>
+						Développement d'une application sur FaceBook avec gamification.
+					</p>
+
+					<p class="contenu">
+						Juillet 2016 - Août 2016	
+					</p>
+
+					<p class="contenu">
+						Gibello S.A <br>
+						Manoeuvre / Maçon finisseur <br>
+						Travaux de nettoyage du chantier / Travaux de finition (Ponçage, Enduit, Piquer)
+					</p>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

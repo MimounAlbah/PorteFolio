@@ -1,0 +1,245 @@
+html{
+	width: 100%;
+	height: 100%;
+	font-family: monospace;
+	/*overflow-x: hidden;
+	overflow-y: auto;*/
+	overflow: hidden;
+	
+}
+form{
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+li{
+	padding: 0px 50px;
+	display:inline-block;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+li:hover{
+	font-size: 200%;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+body{
+	top:0;
+	left:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+
+h2{
+	color: #A0522D;
+	padding-top: 100px;
+	text-align: center;
+}
+
+section{
+	width: 100%;
+	height:100%;
+}
+
+a{
+	color : black;
+	text-decoration: none;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+img{
+
+}
+
+#menu{
+	text-align:center;
+}
+
+#deb{
+	text-align: center;
+	font-size: 2em;
+	margin-top:0px;	
+}
+
+#deplacementInfo{
+	width: 70%;
+	height: calc(100% - 185px);
+	position: absolute;
+	left: 8%;
+}
+
+#deplacementEducation{
+	width: 70%;
+	height: calc(100% - 185px);
+	position: absolute;
+	left: 10%;
+}
+
+
+#afficheInfo{
+	position: relative;
+	left: 40%;
+	height: 100%;
+	
+}
+
+#afficheEduc{
+	position: relative;
+    left: 5%;
+    height: 100%;
+    width: 45%;
+}
+
+#reseaux{
+	   float: right;
+    width: 15%;
+    margin-top: 4%;
+}
+
+#afficheExp{
+	position: relative;
+    left: 5%;
+    height: 100%;
+}
+
+#entete {
+    margin: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #D2B48C;
+    position: fixed;
+}
+
+#BelGueule{
+	height: 60%;
+	border: solid black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 40%
+	
+}
+
+#contenuHome{
+	text-align: justify;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+	display: inline-block;
+	margin: 0;
+}
+
+#cadre{
+	border-bottom: solid #D2B48C;
+	height: 25%;
+	width: 15%;
+	margin-left: 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#contenu_photo_text{
+	text-align: center;
+	margin-top: 5%;
+}
+
+#nom{
+	text-align: center;
+}
+
+#contenu_photo{
+	margin-left: 5%;
+    bottom: -5%;
+    position: absolute;
+}
+
+.projet{
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	padding: 10px;
+}
+
+.reset{
+	width: 70%;
+	height: calc(100% - 185px);
+	position: absolute;
+	left: 9%;
+}
+
+.conteneur{
+	width:100%;
+	height:80%;
+	padding-top:60px;
+	margin-bottom:-90px;
+	background-color: beige;
+	
+}
+
+.contenu{
+    text-align: justify;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+	display: inline-block;
+}
+
+.adrebirth{
+	display: inline-block;
+	top: -0.2vh;
+	position:relative;
+	margin-left: 20px;
+	font-size: 2em;
+}
+
+.telmail{
+	display: inline-block;
+	top: -0.3vh;
+	position:relative;
+	margin-left: 20px;
+	font-size: 2em;
+}
+
+.home{
+	width: 5%;
+	height; 5%;
+
+}
+
+/*.GrosIcon{
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	left: 15%;
+}*/
+
+.GrosIcon{
+	width: 347px;
+    height: 347px;
+    position: absolute;
+    left: 42%;
+}
+
+.contenu_general{
+	position:absolute;
+	top:20%;
+}
+
+.contenu_experiences{
+	position:absolute;
+	top: -10%;
+}
+
